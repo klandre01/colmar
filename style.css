@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 body {
     width: 100%;
 }
@@ -6,6 +8,28 @@ body {
     display: flex;
     align-items: center;
 }
+
+.main-view {
+    width: 60%;
+    padding: 32px 24px
+}
+
+.side-view {
+    width: 40%;
+}
+
+/*
+.large-media-container {
+    padding-bottom: 32px;
+}
+*/
+
+.large-media-container img, video {
+    width: 100%;
+}
+
+
+/* Header */
 
 header {
     background-color: white;
@@ -27,13 +51,4 @@ nav {
 nav a {
     padding-right: 16px;
     text-decoration: none;
-}
-
-.large-media-container {
-    width: 60%;
-    padding: 32px 24px;
-}
-
-.large-media-container img, video {
-    width: 100%;
 }
