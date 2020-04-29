@@ -9,8 +9,8 @@
     <html>
 
         <!--Header-->
-        <header>
-            <div class="nav-logo">
+        <header class="flex-container">
+            <div class="nav-logo flex-container">
                 <img src="capstone_colmar_assets/images/ic-logo.svg">
                 <p>Colmar Academy</p>
             </div>
@@ -23,8 +23,10 @@
         </header>
 
         <!--Banner-->
-        <div id="banner">
-            <img src="capstone_colmar_assets/images/banner.jpg">
+        <div id="banner" class="flex-container">
+            <div class="large-media-container">
+                <img src="capstone_colmar_assets/images/banner.jpg">
+            </div>
             <div class="content">
                 <h1>Learn something new everyday</h1>
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -35,7 +37,9 @@
         <!--Information/Main Section-->
         <div id="main">
             <div class="main-view">
-                <img src="capstone_colmar_assets/images/information-main.jpg">
+                <div class="large-media-container">
+                    <img src="capstone_colmar_assets/images/information-main.jpg">
+                </div>
                 <h2>It doesn't hurt to keep practicing</h2>
                 <p>"Curabitur vitae libero in ipsum porttitor consequat. 
                     Aliquam et commodo lectus, nec consequat neque. 
@@ -121,9 +125,11 @@
         <!--Thesis Exhibit-->
         <div id="thesis">
             <div class="main-view">
-                <video controls>
-                    <source src="capstone_colmar_assets/videos/thesis.mp4">
-                </video>
+                <div class="large-media-container">
+                    <video controls>
+                        <source src="capstone_colmar_assets/videos/thesis.mp4">
+                    </video>
+                </div>
                 <h4>Reimagine urban</h4>
                 <p>"Curabitur vitae libero in ipsum porttitor consequat. 
                     Aliquam et commodo lectus, nec consequat neque. 
