@@ -6,8 +6,20 @@ body {
 
 .flex-container {
     display: flex;
+    align-items: flex-start;
+}
+
+.flex-container-a {
+    display: flex;
     align-items: center;
 }
+
+/*
+#banner {
+    display: flex;
+    align-items: center !important;
+}
+*/
 
 .main-view {
     width: 60%;
@@ -16,6 +28,7 @@ body {
 
 .side-view {
     width: 40%;
+    padding-top: 16px;
 }
 
 .large-media-container img, video {
