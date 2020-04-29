@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 body {
-    width: 100%;
+    max-width: 100%;
 }
 
 .flex-container {
@@ -18,16 +18,12 @@ body {
     width: 40%;
 }
 
-/*
-.large-media-container {
-    padding-bottom: 32px;
-}
-*/
-
 .large-media-container img, video {
     width: 100%;
 }
-
+.info-container {
+    width: 100%;
+}
 
 /* Header */
 
@@ -51,4 +47,27 @@ nav {
 nav a {
     padding-right: 16px;
     text-decoration: none;
+}
+
+/**/
+.article {
+    display: flex;
+}
+.article-img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.article img {
+    width: 100%;
+    height: auto;
+}
+.info-description {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-description h4 {
+    margin: 0;
 }
