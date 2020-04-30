@@ -8,8 +8,29 @@ body {
     font-weight: 300;
 }
 
-h1, h2 {
-    color: #7a640a;
+.light {
+    background-color: #691b0f;
+}
+.dark {
+    background-color: #441008;
+}
+
+.dark h1, h2 {
+    color: #7c6712;
+}
+.light h1, h2 {
+    color: #bd990b;
+}
+
+.course h4 {
+    margin-top: 16px;
+}
+#thesis h4 {
+    margin-top: 24px;
+}
+
+h1, h4 {
+    margin: 0;
 }
 
 h1 {
@@ -24,6 +45,7 @@ h2 {
 
 h4 {
     font-size: 22px;
+    font-weight: 500;
 }
 
 .quote {
@@ -83,6 +105,13 @@ h4 {
 .info-description h4 {
     margin: 0;
 }
+.info-description a {
+    color: #124075;
+    text-decoration: underline;
+}
+.info-description a:hover {
+    cursor: pointer;
+}
 
 /* HEADER */
 header {
@@ -128,6 +157,13 @@ nav a:visited {
     padding-right: 24px;
     width: 36.5%;
 }
+.content h1 {
+    margin-bottom: 20px;
+}
+.content h4 {
+    margin-bottom: 40px;
+    font-weight: 400;
+}
 
 #banner .button {
     width: 100%;
@@ -136,7 +172,6 @@ nav a:visited {
     background-color: #241d1c;
     color: white;
 }
-
 #banner .button:hover {
     background-color: #352f2f;
     cursor: pointer;
@@ -145,6 +180,7 @@ nav a:visited {
 /* MAIN SECTION */
 #main {
     background-color: #441008;
+    padding-bottom: 32px;
 }
 
 #main h2 {
@@ -169,12 +205,19 @@ nav a:visited {
 .course {
     width: 370px;
     margin-right: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    background-color: #1d0a05;
 }
-
 .course img {
     width: 100%;
     height: auto;
+}
+.course-description {
+    padding-left: 16px;
+}
+.course-description h4 {
+    color: #992412;
 }
 
 /* THESIS */
