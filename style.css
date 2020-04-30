@@ -29,6 +29,10 @@ body {
     margin-top: 24px;
 }
 
+#learning h2, #thesis h2 {
+    font-size: 28px;
+}
+
 h1, h4 {
     margin: 0;
 }
@@ -87,6 +91,10 @@ h4 {
 .article {
     display: flex;
 }
+.article:hover {
+    background-color: #59160c;
+    cursor: pointer;
+}
 .article-img {
     width: 35%;
     height: auto;
@@ -106,7 +114,7 @@ h4 {
     margin: 0;
 }
 .info-description a {
-    color: #124075;
+    color: #0d4686;
     text-decoration: underline;
 }
 .info-description a:hover {
@@ -187,8 +195,16 @@ nav a:visited {
     text-align: left;
 }
 
+#main h4 {
+    color: #7c6712;
+}
+
 #main .main-view {
     border-right: 0.5px dotted black;
+}
+
+.speaker {
+    font-size: 14px;
 }
 
 /* START LEARNING */
@@ -209,6 +225,10 @@ nav a:visited {
     padding-bottom: 8px;
     background-color: #1d0a05;
 }
+.course:hover {
+    background-color: #441008;
+    cursor: pointer;
+}
 .course img {
     width: 100%;
     height: auto;
@@ -223,6 +243,10 @@ nav a:visited {
 /* THESIS */
 #thesis {
     background-color: #441008;
+    padding-bottom: 20px;
+}
+#thesis h4 {
+    color: #7c6712;
 }
 
 /* FOOTER */
@@ -245,4 +269,5 @@ footer {
 }
 .float-right a {
     padding-left: 12px;
+    color: #746d6d;
 }
