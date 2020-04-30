@@ -3,6 +3,11 @@
 body {
     max-width: 100%;
     margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 h2 {
@@ -11,24 +16,8 @@ h2 {
     padding: 32px 0px 0px 0px;
 }
 
-/* HEADER */
-header {
-    background-color: white;
-    width: 100%;
-    height: 64px;
-    justify-content: space-between;
-}
-nav {
-    padding-right: 8px;
-}
-.nav-logo {
-    height: 32px;
-    padding-left: 24px;
-    padding-right: 8px;
-}
-nav a {
-    padding-right: 16px;
-    text-decoration: none;
+h4 {
+    font-size: 22px;
 }
 
 /* FLEX CONTAINERS */
@@ -55,6 +44,7 @@ nav a {
 .side-view {
     width: 40%;
     padding-top: 16px;
+    margin-right: 40px;
 }
 
 .info-container {
@@ -83,7 +73,70 @@ nav a {
     margin: 0;
 }
 
+/* HEADER */
+header {
+    background-color: #7a640a;
+    width: 100%;
+    height: 64px;
+    justify-content: space-between;
+}
+nav {
+    padding-right: 8px;
+}
+.nav-logo {
+    font-size: 20px;
+    height: 32px;
+    padding-left: 24px;
+    padding-right: 8px;
+    text-transform: uppercase;
+}
+.nav-logo p {
+    color: black;
+}
+.first-word {
+    color: #691b0f;
+}
+nav a {
+    padding-right: 16px;
+    color: #441008;
+}
+nav a:visited {
+    color: #441008;
+}
+
+/* BANNER */
+#banner {
+    background-color: #691b0f;
+    color: white;
+}
+
+.content {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 36.5%;
+}
+
+#banner .button {
+    width: 100%;
+    padding: 8px 30%;
+    text-align: center;
+    background-color: #241d1c;
+    color: white;
+}
+
+/* MAIN SECTION */
+#main {
+    background-color: #441008;
+}
+
+#main h2 {
+    text-align: left;
+}
+
 /* START LEARNING */
+#learning { 
+    background-color: #691b0f;
+}
 .courses-container {
     display: inline-flex;
     flex-wrap: wrap;
@@ -102,9 +155,17 @@ nav a {
     height: auto;
 }
 
+/* THESIS */
+#thesis {
+    background-color: #441008;
+}
+
 /* FOOTER */
 footer {
-    height: 64px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(20, 15, 15);
+    color: white;
 }
 
 .float-left, .float-right {
