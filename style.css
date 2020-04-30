@@ -4,6 +4,12 @@ body {
     max-width: 100%;
     margin: 0;
     color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    color: #7a640a;
 }
 
 h1 {
@@ -18,6 +24,11 @@ h2 {
 
 h4 {
     font-size: 22px;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
 }
 
 /* FLEX CONTAINERS */
@@ -85,6 +96,7 @@ nav {
 }
 .nav-logo {
     font-size: 20px;
+    font-weight: 400;
     height: 32px;
     padding-left: 24px;
     padding-right: 8px;
@@ -95,6 +107,7 @@ nav {
 }
 .first-word {
     color: #691b0f;
+    font-weight: 500;
 }
 nav a {
     padding-right: 16px;
@@ -118,10 +131,15 @@ nav a:visited {
 
 #banner .button {
     width: 100%;
-    padding: 8px 30%;
+    padding: 12px 30%;
     text-align: center;
     background-color: #241d1c;
     color: white;
+}
+
+#banner .button:hover {
+    background-color: #352f2f;
+    cursor: pointer;
 }
 
 /* MAIN SECTION */
@@ -131,6 +149,10 @@ nav a:visited {
 
 #main h2 {
     text-align: left;
+}
+
+#main .main-view {
+    border-right: 0.5px dotted black;
 }
 
 /* START LEARNING */
